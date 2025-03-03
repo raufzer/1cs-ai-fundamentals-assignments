@@ -16,6 +16,8 @@ This project implements the **A\* search algorithm** to find the shortest path b
     - [Shortest Path Visualization](#shortest-path-visualization)
   - [Dependencies](#dependencies)
   - [Assignment Details](#assignment-details)
+  - [Dockerization](#dockerization)
+    - [Running with Docker](#running-with-docker)
   - [License](#license)
   - [Author](#author)
 
@@ -52,6 +54,9 @@ shortest-path-algerian-cities/
 │   └── shortest_path.png
 ├── src/ # Source code
 │   └── shortest_path.py # Main Python script
+├── docker/ # Docker-related files
+│   ├── Dockerfile
+│   └── docker-compose.yml
 ├── README.md # Project documentation
 ├── requirements.txt # List of dependencies
 └── assignment.pdf # Full assignment instructions
@@ -108,6 +113,22 @@ The full assignment instructions can be found in the `assignment.pdf` file. It i
 - The problem statement.
 - Steps to complete the assignment.
 - Bonus tasks (e.g., adding interactivity).
+
+---
+
+## Dockerization
+This project has been **Dockerized** for easier setup and deployment.
+
+### Running with Docker
+1. **Build the Docker image:**
+   ```bash
+   docker build -t shortest-path-algeria .
+   ```
+2. **Run the container:**
+   ```bash
+   docker run -p 8000:8000 shortest-path-algeria
+   ```
+3. **Access the application:** Open `http://localhost:8000` in your browser to interact with the map.
 
 ---
 
