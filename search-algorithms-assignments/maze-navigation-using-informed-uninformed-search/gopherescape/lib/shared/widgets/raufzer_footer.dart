@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:gopher_escape_app/core/theme/app_sizes.dart';
-import 'package:gopher_escape_app/core/theme/app_spacing.dart';
-import 'package:gopher_escape_app/core/utils/app_assets.dart';
-import 'package:gopher_escape_app/core/theme/app_styles.dart';
-import 'package:gopher_escape_app/core/theme/app_colors.dart';
+import 'package:gopherescape/core/theme/app_sizes.dart';
+import 'package:gopherescape/core/theme/app_spacing.dart';
+import 'package:gopherescape/core/utils/app_assets.dart';
+import 'package:gopherescape/core/theme/app_styles.dart';
+import 'package:gopherescape/core/theme/app_colors.dart';
 
 class RaufZerFooter extends StatelessWidget {
   const RaufZerFooter({super.key});

@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gopher_escape_app/features/algorithms/application/view_models/algorithms_event.dart';
-import 'package:gopher_escape_app/features/algorithms/application/view_models/algorithms_state.dart';
+import 'package:gopherescape/features/algorithms/application/view_models/algorithms_event.dart';
+import 'package:gopherescape/features/algorithms/application/view_models/algorithms_state.dart';
 
 class AlgorithmsBloc extends Bloc<AlgorithmsEvent, AlgorithmsState> {
   AlgorithmsBloc() : super(AlgorithmsInitial()) {

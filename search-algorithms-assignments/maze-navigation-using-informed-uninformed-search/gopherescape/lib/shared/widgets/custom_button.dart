@@ -33,11 +33,11 @@ class CustomButton extends StatelessWidget {
       child: GestureDetector(
         onTap: onPressed,
         child: Container(
-          width: width .w,
-          height: height .h,
+          width: width.w,
+          height: height.h,
           decoration: BoxDecoration(
             color: backgroundColor,
-            borderRadius: BorderRadius.circular(borderRadius .r),
+            borderRadius: BorderRadius.circular(borderRadius.r),
             boxShadow: [
               BoxShadow(
                 // ignore: deprecated_member_use

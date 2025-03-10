@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gopher_escape_app/core/theme/app_sizes.dart';
-import 'package:gopher_escape_app/core/theme/app_spacing.dart';
-import 'package:gopher_escape_app/core/theme/app_styles.dart';
-import 'package:gopher_escape_app/core/theme/app_theme_extension.dart';
-import 'package:gopher_escape_app/features/analytics/presentation/widgets/result_button.dart';
+import 'package:gopherescape/core/theme/app_sizes.dart';
+import 'package:gopherescape/core/theme/app_spacing.dart';
+import 'package:gopherescape/core/theme/app_styles.dart';
+import 'package:gopherescape/core/theme/app_theme_extension.dart';
+import 'package:gopherescape/features/analytics/presentation/widgets/result_button.dart';
 
 class AnalyticsResults extends StatelessWidget {
   final int nodesExplored;

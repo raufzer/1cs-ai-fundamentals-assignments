@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gopher_escape_app/shared/widgets/custom_button.dart';
-import 'package:gopher_escape_app/shared/widgets/custom_title.dart';
-import 'package:gopher_escape_app/shared/widgets/gopher_escape_logo.dart';
-import 'package:gopher_escape_app/shared/widgets/raufzer_footer.dart';
-import 'package:gopher_escape_app/core/theme/app_colors.dart';
-import 'package:gopher_escape_app/core/theme/app_sizes.dart';
-import 'package:gopher_escape_app/core/theme/app_spacing.dart';
-import 'package:gopher_escape_app/core/theme/app_styles.dart';
-import 'package:gopher_escape_app/core/theme/app_theme_extension.dart';
-import 'package:gopher_escape_app/features/options/presentation/widgets/option_buttons.dart';
+import 'package:gopherescape/shared/widgets/custom_button.dart';
+import 'package:gopherescape/shared/widgets/custom_title.dart';
+import 'package:gopherescape/shared/widgets/gopher_escape_logo.dart';
+import 'package:gopherescape/shared/widgets/raufzer_footer.dart';
+import 'package:gopherescape/core/theme/app_colors.dart';
+import 'package:gopherescape/core/theme/app_sizes.dart';
+import 'package:gopherescape/core/theme/app_spacing.dart';
+import 'package:gopherescape/core/theme/app_styles.dart';
+import 'package:gopherescape/core/theme/app_theme_extension.dart';
+import 'package:gopherescape/features/options/presentation/widgets/option_buttons.dart';
 
 class OptionsScreenContent extends StatelessWidget {
   final Color button1Color;

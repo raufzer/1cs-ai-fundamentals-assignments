@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
-import 'package:gopher_escape_app/core/config/app_routes.dart';
-import 'package:gopher_escape_app/features/algorithms/application/view_models/algorithms_bloc.dart';
-import 'package:gopher_escape_app/features/algorithms/application/view_models/algorithms_event.dart';
-import 'package:gopher_escape_app/features/algorithms/application/view_models/algorithms_state.dart';
-import 'package:gopher_escape_app/features/algorithms/presentation/widgets/algorithms_screen_content.dart';
+import 'package:gopherescape/core/config/app_routes.dart';
+import 'package:gopherescape/features/algorithms/application/view_models/algorithms_bloc.dart';
+import 'package:gopherescape/features/algorithms/application/view_models/algorithms_event.dart';
+import 'package:gopherescape/features/algorithms/application/view_models/algorithms_state.dart';
+import 'package:gopherescape/features/algorithms/presentation/widgets/algorithms_screen_content.dart';
 
 class AlgorithmsScreenBody extends StatelessWidget {
   const AlgorithmsScreenBody({super.key});

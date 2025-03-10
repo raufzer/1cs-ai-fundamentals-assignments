@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gopher_escape_app/core/theme/app_sizes.dart';
-import 'package:gopher_escape_app/core/utils/app_assets.dart';
+import 'package:gopherescape/core/theme/app_sizes.dart';
+import 'package:gopherescape/core/utils/app_assets.dart';
 
 class GopherEscapeLogo extends StatelessWidget {
   const GopherEscapeLogo({super.key});

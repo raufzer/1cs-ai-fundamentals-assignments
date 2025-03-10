@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gopher_escape_app/shared/widgets/custom_button.dart';
+import 'package:gopherescape/shared/widgets/custom_button.dart';
 
 class ResultButton extends StatelessWidget {
   final double width;

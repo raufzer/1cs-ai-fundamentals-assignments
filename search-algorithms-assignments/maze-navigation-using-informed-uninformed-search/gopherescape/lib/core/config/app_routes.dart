@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:gopher_escape_app/features/algorithms/presentation/views/algorithms_screen.dart';
-import 'package:gopher_escape_app/features/analytics/presentation/views/analytics_screen.dart';
-import 'package:gopher_escape_app/features/home/presentation/views/home_screen.dart';
-import 'package:gopher_escape_app/features/maze/presentation/views/solved_maze_screen.dart';
-import 'package:gopher_escape_app/features/maze/presentation/views/tutorial_maze_screen.dart';
-import 'package:gopher_escape_app/features/options/presentation/views/options_screen.dart';
+import 'package:gopherescape/features/algorithms/presentation/views/algorithms_screen.dart';
+import 'package:gopherescape/features/analytics/presentation/views/analytics_screen.dart';
+import 'package:gopherescape/features/home/presentation/views/home_screen.dart';
+import 'package:gopherescape/features/maze/presentation/views/solved_maze_screen.dart';
+import 'package:gopherescape/features/maze/presentation/views/tutorial_maze_screen.dart';
+import 'package:gopherescape/features/options/presentation/views/options_screen.dart';
 
 abstract class AppRouters {
   static const kHomeScreen = '/homeScreen';

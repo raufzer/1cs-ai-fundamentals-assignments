@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gopher_escape_app/core/theme/app_colors.dart';
+import 'package:gopherescape/core/theme/app_colors.dart';
 
 class MazeGrid extends StatelessWidget {
   final List<List<int>> visitedCells;

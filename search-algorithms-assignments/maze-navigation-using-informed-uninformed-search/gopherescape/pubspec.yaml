@@ -1,4 +1,4 @@
-name: gopher_escape_app
+name: gopherescape
 description: "Gopher exploring search algorithms to escape from the maze"
 publish_to: "none"
 version: 0.1.0
@@ -33,6 +33,8 @@ flutter:
     - assets/icons/
     # Images
     - assets/images/
+    # Fonts
+    - assets/fonts/
 
   fonts:
     - family: Inter

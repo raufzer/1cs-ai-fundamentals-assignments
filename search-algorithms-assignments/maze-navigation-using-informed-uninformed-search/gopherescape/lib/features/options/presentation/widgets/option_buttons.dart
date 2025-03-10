@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gopher_escape_app/shared/widgets/custom_options_button.dart';
-import 'package:gopher_escape_app/core/theme/app_spacing.dart';
+import 'package:gopherescape/shared/widgets/custom_options_button.dart';
+import 'package:gopherescape/core/theme/app_spacing.dart';
 
 class OptionButtons extends StatelessWidget {
   final Color button1Color;

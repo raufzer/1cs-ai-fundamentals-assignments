@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gopher_escape_app/features/analytics/application/view_models/results_bloc.dart';
-import 'package:gopher_escape_app/features/analytics/application/view_models/results_state.dart';
-import 'package:gopher_escape_app/features/analytics/presentation/widgets/analytics_screen_content.dart';
+import 'package:gopherescape/features/analytics/application/view_models/results_bloc.dart';
+import 'package:gopherescape/features/analytics/application/view_models/results_state.dart';
+import 'package:gopherescape/features/analytics/presentation/widgets/analytics_screen_content.dart';
 
 class AnalyticsScreenBody extends StatelessWidget {
   const AnalyticsScreenBody({super.key});

@@ -1,6 +1,6 @@
 # Gopher Escape App
 
-This project implements a maze-solving application using the **Depth-First Search (DFS)** , **Breadth-First Search (BFS)** and **A star** algorithms. The application visualizes the maze and the solving process, allowing users to generate random mazes and solve them using different algorithms.
+This project implements a maze-solving application using the **Depth-First Search (DFS)**, **Breadth-First Search (BFS)**, and **A* (A-star) algorithm**. The application visualizes the maze and the solving process, allowing users to generate random mazes and solve them using different algorithms.
 
 ---
 
@@ -10,6 +10,7 @@ This project implements a maze-solving application using the **Depth-First Searc
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
   - [Features](#features)
+  - [📥 Download APK](#-download-apk)
   - [Folder Structure](#folder-structure)
   - [How to Run](#how-to-run)
   - [Example Output](#example-output)
@@ -25,7 +26,7 @@ This project implements a maze-solving application using the **Depth-First Searc
 
 The goal of this project is to:
 
-- Implement the **DFS** and **BFS** algorithms to solve mazes.
+- Implement **DFS**, **BFS**, and **A* algorithms** to solve mazes.
 - Allow users to generate random mazes and solve them using different algorithms.
 - Visualize the solving process and the final path on an interactive grid.
 
@@ -34,9 +35,17 @@ The goal of this project is to:
 ## Features
 
 - **Maze Generation:** Users can generate random mazes with specified dimensions.
-- **Multiple Algorithms:** Solve mazes using DFS or BFS algorithms.
+- **Multiple Algorithms:** Solve mazes using DFS, BFS, or A* algorithms.
 - **Visualization:** Displays the solving process and the final path on an interactive grid.
 - **User-Friendly:** Easy-to-use interface for generating and solving mazes.
+
+---
+
+## 📥 Download APK
+
+You can download and install the latest version of **Gopher Escape** using the link below:
+
+[⬇️ Download GopherEscape APK](https://drive.google.com/file/d/1cW4XzQutzFInD20SfzZ4ZEbQVMSo8fX6/view?usp=sharing)
 
 ---
 
@@ -76,6 +85,7 @@ lib/ # Main application directory
 ├── main.dart # Entry point of the application
 ```
 
+---
 
 ## How to Run
 
@@ -107,8 +117,8 @@ lib/ # Main application directory
 | ----------- | ----------- | -------------- |
 | ![Algorithms Screen](./screenshots/algorithms_screen.jpg) | ![Exploring Screen](./screenshots/exploring_screen.jpg) | ![Solution Screen](./screenshots/solution_screen.jpg) |
 
-| Analytics Screen  | 
-| ----------- | 
+| Analytics Screen  |
+| ----------- |
 | ![Analytics Screen](./screenshots/analytics_screen.jpg) |
 
 ---
@@ -140,7 +150,7 @@ The full assignment instructions can be found in the `assignment.pdf` file. It i
 
 ## Author
 
-Rauf Zer
+**Rauf Zer**
 
 École supérieure en Sciences et Technologies de l'Informatique et du Numérique
 
@@ -151,4 +161,3 @@ Rauf Zer
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-

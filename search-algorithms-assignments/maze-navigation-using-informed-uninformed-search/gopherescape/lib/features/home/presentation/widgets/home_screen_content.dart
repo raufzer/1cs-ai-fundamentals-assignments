@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:gopher_escape_app/shared/widgets/custom_button.dart';
-import 'package:gopher_escape_app/shared/widgets/gopher_escape_logo.dart';
-import 'package:gopher_escape_app/shared/widgets/raufzer_footer.dart';
-import 'package:gopher_escape_app/core/theme/app_sizes.dart';
-import 'package:gopher_escape_app/core/theme/app_spacing.dart';
-import 'package:gopher_escape_app/core/theme/app_styles.dart';
+import 'package:gopherescape/shared/widgets/custom_button.dart';
+import 'package:gopherescape/shared/widgets/gopher_escape_logo.dart';
+import 'package:gopherescape/shared/widgets/raufzer_footer.dart';
+import 'package:gopherescape/core/theme/app_sizes.dart';
+import 'package:gopherescape/core/theme/app_spacing.dart';
+import 'package:gopherescape/core/theme/app_styles.dart';
 import 'package:go_router/go_router.dart';
-import 'package:gopher_escape_app/core/config/app_routes.dart';
-import 'package:gopher_escape_app/core/theme/app_theme_extension.dart';
-import 'package:gopher_escape_app/features/home/presentation/widgets/gopher_avatar.dart';
+import 'package:gopherescape/core/config/app_routes.dart';
+import 'package:gopherescape/core/theme/app_theme_extension.dart';
+import 'package:gopherescape/features/home/presentation/widgets/gopher_avatar.dart';
 
 class HomeScreenContent extends StatelessWidget {
   const HomeScreenContent({super.key});

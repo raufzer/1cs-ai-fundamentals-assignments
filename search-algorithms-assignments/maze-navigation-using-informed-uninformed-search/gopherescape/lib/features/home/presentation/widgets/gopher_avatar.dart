@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gopher_escape_app/core/theme/app_theme_extension.dart';
-import 'package:gopher_escape_app/core/utils/app_assets.dart';
+import 'package:gopherescape/core/theme/app_theme_extension.dart';
+import 'package:gopherescape/core/utils/app_assets.dart';
 
 class GopherAvatar extends StatelessWidget {
   const GopherAvatar({super.key});

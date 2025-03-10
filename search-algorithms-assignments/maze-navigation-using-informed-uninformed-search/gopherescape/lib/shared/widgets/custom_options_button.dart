@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:gopher_escape_app/core/theme/app_colors.dart';
-import 'package:gopher_escape_app/core/theme/app_sizes.dart';
-import 'package:gopher_escape_app/core/theme/app_styles.dart';
-import 'package:gopher_escape_app/shared/widgets/custom_button.dart';
+import 'package:gopherescape/core/theme/app_colors.dart';
+import 'package:gopherescape/core/theme/app_sizes.dart';
+import 'package:gopherescape/core/theme/app_styles.dart';
+import 'package:gopherescape/shared/widgets/custom_button.dart';
 
 class OptionButton extends StatelessWidget {
   final Color backgroundColor;

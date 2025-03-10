@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:math';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gopher_escape_app/core/utils/maze_solver.dart';
-import 'package:gopher_escape_app/features/maze/application/view_models/maze_event.dart';
-import 'package:gopher_escape_app/features/maze/application/view_models/maze_state.dart';
+import 'package:gopherescape/core/utils/maze_solver.dart';
+import 'package:gopherescape/features/maze/application/view_models/maze_event.dart';
+import 'package:gopherescape/features/maze/application/view_models/maze_state.dart';
 
 class MazeBloc extends Bloc<MazeEvent, MazeState> {
   MazeBloc() : super(MazeInitial()) {

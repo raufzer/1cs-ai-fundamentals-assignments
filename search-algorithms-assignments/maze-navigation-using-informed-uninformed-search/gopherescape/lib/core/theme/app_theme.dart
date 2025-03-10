@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:gopher_escape_app/core/theme/app_theme_extension.dart';
+import 'package:gopherescape/core/theme/app_theme_extension.dart';
 import 'app_colors.dart';
 import 'app_styles.dart';
 

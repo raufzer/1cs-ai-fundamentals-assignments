@@ -3,7 +3,7 @@ import 'dart:ui';
 
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gopher_escape_app/core/theme/app_colors.dart';
+import 'package:gopherescape/core/theme/app_colors.dart';
 
 part 'options_event.dart';
 part 'options_state.dart';

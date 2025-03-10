@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gopher_escape_app/core/config/app_routes.dart';
-import 'package:gopher_escape_app/core/theme/app_colors.dart';
-import 'package:gopher_escape_app/core/theme/app_theme.dart';
+import 'package:gopherescape/core/config/app_routes.dart';
+import 'package:gopherescape/core/theme/app_colors.dart';
+import 'package:gopherescape/core/theme/app_theme.dart';
 
 void main() {
     FlutterError.onError = (FlutterErrorDetails details) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gopher_escape_app/core/theme/app_styles.dart';
+import 'package:gopherescape/core/theme/app_styles.dart';
 
 class CustomTitle extends StatelessWidget {
   final String title;
