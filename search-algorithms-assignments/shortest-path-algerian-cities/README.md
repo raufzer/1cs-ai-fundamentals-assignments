@@ -11,6 +11,8 @@ This project implements the **A\* search algorithm** to find the shortest path b
   - [Features](#features)
   - [Folder Structure](#folder-structure)
   - [How to Run](#how-to-run)
+    - [Using Python Script](#using-python-script)
+    - [Using Jupyter Notebook](#using-jupyter-notebook)
   - [Example Output](#example-output)
     - [Interactive Map for Point Selection](#interactive-map-for-point-selection)
     - [Shortest Path Visualization](#shortest-path-visualization)
@@ -28,6 +30,7 @@ The goal of this assignment is to:
 - Implement the **A\*** search algorithm to find the shortest path between two cities in Algeria.
 - Visualize the path on an interactive map using **Folium**.
 - Allow users to select start and end points directly on the map.
+- Provide a **Jupyter Notebook** version of the implementation for better interactivity.
 
 ---
 
@@ -36,6 +39,7 @@ The goal of this assignment is to:
 - **Shortest Path Calculation:** Uses the A\* algorithm to find the shortest path.
 - **Visualization:** Displays the shortest path on an interactive map.
 - **User-Friendly:** No need to manually input coordinates—just click on the map!
+- **Jupyter Notebook Support:** Provides an `.ipynb` version for an interactive coding experience.
 
 ---
 
@@ -53,7 +57,8 @@ shortest-path-algerian-cities/
 │   ├── interactive_map.png
 │   └── shortest_path.png
 ├── src/ # Source code
-│   └── shortest_path.py # Main Python script
+│   ├── shortest_path.py # Main Python script
+│   └── shortest_path.ipynb # Jupyter Notebook version
 ├── docker/ # Docker-related files
 │   ├── Dockerfile
 │   └── docker-compose.yml
@@ -65,6 +70,7 @@ shortest-path-algerian-cities/
 ---
 
 ## How to Run
+### Using Python Script
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
@@ -83,13 +89,24 @@ shortest-path-algerian-cities/
    - Save the markers and press Enter in the terminal.
    - View the shortest path on the interactive map.
 
+### Using Jupyter Notebook
+1. **Install Jupyter Notebook:**
+   ```bash
+   pip install notebook
+   ```
+2. **Run the Notebook:**
+   ```bash
+   jupyter notebook src/shortest_path.ipynb
+   ```
+3. **Follow the notebook instructions** to select points and visualize the shortest path.
+
 ---
 
 ## Example Output
 ### Interactive Map for Point Selection
-![](./screenshoots/interactive_map.png)
+![](./screenshots/interactive_map.png)
 ### Shortest Path Visualization
-![](./screenshoots/shortest_path.png)
+![](./screenshots/shortest_path.png)
 
 ---
 
@@ -100,6 +117,7 @@ shortest-path-algerian-cities/
   - `networkx`
   - `folium`
   - `scikit-learn`
+  - `notebook` (for Jupyter support)
 
 Install all dependencies using:
 ```bash
@@ -143,4 +161,3 @@ Abd Raouf Zerkhef
 École supérieure en Sciences et Technologies de l'Informatique et du Numérique
 
 05/03/2025
-
