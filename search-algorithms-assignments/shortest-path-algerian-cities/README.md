@@ -13,13 +13,12 @@ This project implements the **A\* search algorithm** to find the shortest path b
   - [How to Run](#how-to-run)
     - [Using Python Script](#using-python-script)
     - [Using Jupyter Notebook](#using-jupyter-notebook)
+    - [Using with Docker](#using-with-docker)
   - [Example Output](#example-output)
     - [Interactive Map for Point Selection](#interactive-map-for-point-selection)
     - [Shortest Path Visualization](#shortest-path-visualization)
   - [Dependencies](#dependencies)
   - [Assignment Details](#assignment-details)
-  - [Dockerization](#dockerization)
-    - [Running with Docker](#running-with-docker)
   - [License](#license)
   - [Author](#author)
 
@@ -35,11 +34,13 @@ The goal of this assignment is to:
 ---
 
 ## Features
-- **Interactive Map:** Users can click on the map to select start and end points.
-- **Shortest Path Calculation:** Uses the A\* algorithm to find the shortest path.
-- **Visualization:** Displays the shortest path on an interactive map.
-- **User-Friendly:** No need to manually input coordinates—just click on the map!
-- **Jupyter Notebook Support:** Provides an `.ipynb` version for an interactive coding experience.
+- **Python Script (Manual Mode)**:
+  - Interactive map for selecting points.
+  - Computes shortest path dynamically.
+- **Jupyter Notebook (Automatic Mode)**:
+  - Uses predefined points (no manual selection).
+  - Immediately displays the computed path.
+- **Visualization**: Both versions generate an interactive map.
 
 ---
 
@@ -58,7 +59,7 @@ shortest-path-algerian-cities/
 │   └── shortest_path.png
 ├── src/ # Source code
 │   ├── shortest_path.py # Main Python script
-│   └── shortest_path.ipynb # Jupyter Notebook version
+│   └── shortest_path_algiers.ipynb # Jupyter Notebook version
 ├── docker/ # Docker-related files
 │   ├── Dockerfile
 │   └── docker-compose.yml
@@ -96,9 +97,20 @@ shortest-path-algerian-cities/
    ```
 2. **Run the Notebook:**
    ```bash
-   jupyter notebook src/shortest_path.ipynb
+   jupyter notebook src/shortest_path_algiers.ipynb
    ```
-3. **Follow the notebook instructions** to select points and visualize the shortest path.
+3. **The notebook will automatically compute the shortest path using predefined points.**
+
+### Using with Docker
+1. **Build the Docker image:**
+   ```bash
+   docker build -t shortest-path-algeria .
+   ```
+2. **Run the container:**
+   ```bash
+   docker run -p 8000:8000 shortest-path-algeria
+   ```
+3. **Access the application:** Open `http://localhost:8000` in your browser to interact with the map.
 
 ---
 
@@ -132,23 +144,6 @@ The full assignment instructions can be found in the `assignment.pdf` file. It i
 - Steps to complete the assignment.
 - Bonus tasks (e.g., adding interactivity).
 
----
-
-## Dockerization
-This project has been **Dockerized** for easier setup and deployment.
-
-### Running with Docker
-1. **Build the Docker image:**
-   ```bash
-   docker build -t shortest-path-algeria .
-   ```
-2. **Run the container:**
-   ```bash
-   docker run -p 8000:8000 shortest-path-algeria
-   ```
-3. **Access the application:** Open `http://localhost:8000` in your browser to interact with the map.
-
----
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
