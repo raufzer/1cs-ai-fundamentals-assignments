@@ -17,6 +17,7 @@ This project implements the **A\* search algorithm** to find the shortest path b
   - [Example Output](#example-output)
     - [Interactive Map for Point Selection](#interactive-map-for-point-selection)
     - [Shortest Path Visualization](#shortest-path-visualization)
+    - [Live Demo](#live-demo)
   - [Dependencies](#dependencies)
   - [Assignment Details](#assignment-details)
   - [License](#license)
@@ -119,6 +120,10 @@ shortest-path-algerian-cities/
 ![](./screenshots/interactive_map.png)
 ### Shortest Path Visualization
 ![](./screenshots/shortest_path.png)
+
+### Live Demo
+You can view the interactive shortest path *visualization directly on 
+[GitHub Pages](https://raufzer.github.io/1cs-ai-fundamentals-assignments/shortest-path-algerian-cities/).
 
 ---
 

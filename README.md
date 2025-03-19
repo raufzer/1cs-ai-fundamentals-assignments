@@ -22,8 +22,10 @@ The repository is organized by chapters, with each chapter having its own folder
 1cs-ai-fundamentals-assignments/
 │
 ├── search-algorithms-assignments/ # Search Algorithms (BFS, DFS, A*, etc.)
+├── docs/ # Documentation and explanations for assignments
 └── README.md
 ```
+NOTE: docs/ folder is included for documentation and supplementary materials.
 
 ---
 
