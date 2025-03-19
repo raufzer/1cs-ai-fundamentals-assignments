@@ -21,14 +21,6 @@ The repository is organized by chapters, with each chapter having its own folder
 ```
 1cs-ai-fundamentals-assignments/
 │
-├── ai-intro-assignments/ # Introduction to AI
-├── first-order-logic-assignments/ # First-Order Logic (FOL)
-├── fol-inference-methods-assignments/ # Inference Methods in FOL
-├── fol-resolution-refutation-assignments/ # FOL Resolution (Proof by Refutation)
-├── expert-systems-assignments/ # Expert Systems
-├── constraint-satisfaction-problems-assignments/ # Constraint Satisfaction Problems (CSPs)
-├── robotics-assignments/ # Robotics
-├── advanced-ai-intro-assignments/ # Introduction to Advanced AI
 ├── search-algorithms-assignments/ # Search Algorithms (BFS, DFS, A*, etc.)
 └── README.md
 ```
