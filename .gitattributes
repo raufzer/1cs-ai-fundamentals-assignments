@@ -1,2 +1,5 @@
 *.html linguist-vendored
 *.dart linguist-vendored
+*.kt linguist-vendored
+*.kts linguist-vendored
+*.swift linguist-vendored
