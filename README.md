@@ -31,24 +31,14 @@ NOTE: docs/ folder is included for documentation and supplementary materials.
 
 ## Topics Covered
 - **Search Algorithms (BFS, DFS, A/*, etc.)**
-- **Introduction to AI**
-- **First-Order Logic (FOL)**
-- **Inference Methods in FOL**
-- **FOL Resolution (Proof by Refutation)**
-- **Expert Systems**
 - **Constraint Satisfaction Problems (CSPs)**
-- **Robotics**
-- **Introduction to Advanced AI**
 
 ---
 
 ## Assignments
 Each chapter folder contains assignments related to the topic. Here are some examples:
 - **Search Algorithms**: Implement BFS, DFS, and A* for pathfinding problems.
-- **First-Order Logic**: ..
 - **CSPs**: ..
-- **Expert Systems**: ..
-- **Robotics**: ..
 
 ---
 
